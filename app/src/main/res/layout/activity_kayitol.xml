@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252323"
+    tools:context=".kayitol">
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="    cancel"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#252323"
+        android:gravity="center"></Button>
+
+    <Button
+        android:id="@+id/btndone"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:background="#252323"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="done"
+        android:textColor="@color/white"></Button>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="150dp"
+        android:background="#3F4040"
+        android:layout_marginTop="100dp"></ImageView>
+
+
+    <EditText
+        android:id="@+id/editad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:background="#3F4040"
+        android:hint=" first name"></EditText>
+    <EditText
+        android:id="@+id/editsoyad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="#3F4040"
+        android:hint=" last name"></EditText>
+    <EditText
+        android:id="@+id/editcompany"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:background="#3F4040"
+        android:hint=" company"></EditText>
+
+    <EditText
+        android:id="@+id/numaraekle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:hint="  add number"
+        android:background="#3F4040"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/emailekle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:hint="  add email"
+        android:background="#3F4040"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="60dp"
+        android:hint=" notes"
+        android:gravity="left"
+        android:background="#3F4040"></EditText>
+
+
+
+</RelativeLayout>
